@@ -1,0 +1,51 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+.container{
+    
+    margin-top : 20px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+.input{
+    border-radius: 25px;
+    background-color: #D7D8DC;
+    padding-left: 30px;
+}
+.first{
+    position : relative;
+}
+.first .search{
+    position: absolute;
+    margin-left: 20px;
+    margin-top : 13px;
+}
+img{
+    width : 28px;
+    height : 28px;
+    border-radius: 50%;
+}
+@media (min-width : 768px) and (max-width : 1024px){
+    .first{
+        position : relative;
+        width  :  370px;
+        margin-left : -40px;
+    }
+    .input{
+        margin-top : -130px;
+        border-radius: 25px;
+        background-color: #D7D8DC;
+        padding-left: 30px;
+    }
+    .first .search{
+        position: absolute;
+        margin-left: 20px;
+    }
+    .second{
+        margin-left: 4px;
+    }
+}
